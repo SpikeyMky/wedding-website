@@ -1,14 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import {} from './homepage.styles';
+import {} from './test.styles';
 
 // import Directory from "../../components/directory/directory.component";
 
 const HomePage = () => (
-    <div className="homepage">
-        <p>Wedding website</p>
-        <Link to="/test">Test</Link>
+    <div className="test">
+        <p>Test Page</p>
     </div>
 )
 

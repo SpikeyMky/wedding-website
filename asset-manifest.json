@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/wedding-website/static/css/main.a4fe1207.chunk.css",
-    "main.js": "/wedding-website/static/js/main.94f59e6c.chunk.js",
-    "main.js.map": "/wedding-website/static/js/main.94f59e6c.chunk.js.map",
+    "main.js": "/wedding-website/static/js/main.afe619f7.chunk.js",
+    "main.js.map": "/wedding-website/static/js/main.afe619f7.chunk.js.map",
     "runtime~main.js": "/wedding-website/static/js/runtime~main.efe29a67.js",
     "runtime~main.js.map": "/wedding-website/static/js/runtime~main.efe29a67.js.map",
-    "static/js/2.58dc60de.chunk.js": "/wedding-website/static/js/2.58dc60de.chunk.js",
-    "static/js/2.58dc60de.chunk.js.map": "/wedding-website/static/js/2.58dc60de.chunk.js.map",
+    "static/js/2.69aa641a.chunk.js": "/wedding-website/static/js/2.69aa641a.chunk.js",
+    "static/js/2.69aa641a.chunk.js.map": "/wedding-website/static/js/2.69aa641a.chunk.js.map",
     "index.html": "/wedding-website/index.html",
-    "precache-manifest.5c3688d722092e92a9220b6892af26f6.js": "/wedding-website/precache-manifest.5c3688d722092e92a9220b6892af26f6.js",
+    "precache-manifest.8d564cde33f9b1e29bc50090b7d3b03e.js": "/wedding-website/precache-manifest.8d564cde33f9b1e29bc50090b7d3b03e.js",
     "service-worker.js": "/wedding-website/service-worker.js",
     "static/css/main.a4fe1207.chunk.css.map": "/wedding-website/static/css/main.a4fe1207.chunk.css.map",
-    "static/media/heart-knot.png": "/wedding-website/static/media/heart-knot.0ecc7ef1.png",
-    "static/media/jm-claddagh.png": "/wedding-website/static/media/jm-claddagh.9c2b353d.png"
+    "static/media/flower-border-left.png": "/wedding-website/static/media/flower-border-left.dd961423.png",
+    "static/media/flower-border-right.png": "/wedding-website/static/media/flower-border-right.6a82b7ef.png",
+    "static/media/jm-claddagh.png": "/wedding-website/static/media/jm-claddagh.3fb69da6.png",
+    "static/media/parchment.jpg": "/wedding-website/static/media/parchment.8fb37f09.jpg"
   }
 }

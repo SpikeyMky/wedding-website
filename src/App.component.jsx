@@ -3,28 +3,30 @@ import {HashRouter, Route} from 'react-router-dom';
 import HomePage from './pages/homepage/homepage.component';
 import TestPage from './pages/test/test.component';
 
-import {PageContainer, Panel} from './App.styles';
+import {PageContainer, InnerWrapper} from './App.styles';
 
 import {connect} from 'react-redux';
+
+import Header from './components/header/header.component';
 
 
 class App extends React.Component {
 
   render() {
     return (
+      <>
+      <Header/>
 
-      <PageContainer>
-        
-          <Panel>
-
+      <PageContainer>        
+          <InnerWrapper>
             <HashRouter basename='/'>
               <Route exact path="/" component={HomePage} />
               <Route exact path="/test" component={TestPage} />
             </HashRouter>
-
-          </Panel>
-
+          </InnerWrapper>
       </PageContainer>
+
+      </>
     );
   }
 }

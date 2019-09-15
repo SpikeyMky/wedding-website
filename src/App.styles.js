@@ -1,19 +1,24 @@
 import styled from 'styled-components';
 
+
+// import heartknot from './assets/heart-knot.png';
+import flowerborderright from './assets/flower-border-right.png'
+import flowerborderleft from './assets/flower-border-left.png'
+import parchment from './assets/parchment.jpg'
+
 // import {ReactComponent as CelticKnot} from "./assets/celtic-knot.svg"
 
 export const PageContainer = styled.div`
-    width:100vw;
-    height:100vh;
-    background:#55ade3;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    background: url(${flowerborderleft}) 0 0 no-repeat, url(${flowerborderright}) 100% 0 no-repeat, url(${parchment});
+    background-repeat-y:repeat;
 `;
 
-export const Panel = styled.div`
-    background:#fff;
-    width:90vw;
-    height:90vh;
-    box-shadow: 5px 10px 8px green;
+export const InnerWrapper = styled.div`
+    max-width:1400px;
+    margin:0 auto;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    min-height:100vh;
+    text-align:center;
+    padding: 0 115px;
 `;

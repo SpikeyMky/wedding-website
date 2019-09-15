@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
     border-bottom:1px solid #000;
     position:sticky;
     top:0;
-    background:#fff;
+    background:#b1d9c7;
     padding:10px 0;
     text-align:center;
 `;

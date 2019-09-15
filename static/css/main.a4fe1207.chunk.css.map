@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.scss"],"names":[],"mappings":"AAAA,EACE,qBAAqB,CACrB,mBAAmB,CAErB,KACE,QAAS","file":"main.a4fe1207.chunk.css","sourcesContent":["*{\n  box-sizing:border-box;\n  font-family:Georgia;\n}\nbody {\n  margin: 0;\n}\n"]}

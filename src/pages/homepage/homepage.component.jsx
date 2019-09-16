@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import {createSongRequestDocument} from '../../firebase/firebase.utils';
+
 
 
 import { HomepageContainer, ContentContainer, ContentContainerTop, ContentContainerBottom, PageHeading, PageHeadingElvin, EventDateTime, EventLocation, EventCountdown, CountdownDays } from './homepage.styles';
@@ -25,6 +27,10 @@ class HomePage extends React.Component {
         );
     }
 
+    testFunc = () => {
+        createSongRequestDocument({artist:"Fall out boy",title:"Dance dance"});
+    }
+
     render() {
         const {daysUntilWedding} = this.state;
         return (
@@ -44,6 +50,8 @@ class HomePage extends React.Component {
                     </ContentContainerBottom>
 
                 </ContentContainer>
+
+                {/* <div onClick={() => {this.testFunc()}}>Click me</div> */}
 
             </HomepageContainer>
         );

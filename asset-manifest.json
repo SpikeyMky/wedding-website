@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/wedding-website/static/css/main.a4fe1207.chunk.css",
-    "main.js": "/wedding-website/static/js/main.811b463c.chunk.js",
-    "main.js.map": "/wedding-website/static/js/main.811b463c.chunk.js.map",
+    "main.css": "/wedding-website/static/css/main.71b0352e.chunk.css",
+    "main.js": "/wedding-website/static/js/main.365326a9.chunk.js",
+    "main.js.map": "/wedding-website/static/js/main.365326a9.chunk.js.map",
     "runtime~main.js": "/wedding-website/static/js/runtime~main.efe29a67.js",
     "runtime~main.js.map": "/wedding-website/static/js/runtime~main.efe29a67.js.map",
-    "static/js/2.69aa641a.chunk.js": "/wedding-website/static/js/2.69aa641a.chunk.js",
-    "static/js/2.69aa641a.chunk.js.map": "/wedding-website/static/js/2.69aa641a.chunk.js.map",
+    "static/js/2.9d292728.chunk.js": "/wedding-website/static/js/2.9d292728.chunk.js",
+    "static/js/2.9d292728.chunk.js.map": "/wedding-website/static/js/2.9d292728.chunk.js.map",
     "index.html": "/wedding-website/index.html",
-    "precache-manifest.eb51b2370d5d33d98e9c9dc55175f650.js": "/wedding-website/precache-manifest.eb51b2370d5d33d98e9c9dc55175f650.js",
+    "precache-manifest.df6eb2a78471ec10e6bf1a6380c09b7b.js": "/wedding-website/precache-manifest.df6eb2a78471ec10e6bf1a6380c09b7b.js",
     "service-worker.js": "/wedding-website/service-worker.js",
-    "static/css/main.a4fe1207.chunk.css.map": "/wedding-website/static/css/main.a4fe1207.chunk.css.map",
+    "static/css/main.71b0352e.chunk.css.map": "/wedding-website/static/css/main.71b0352e.chunk.css.map",
+    "static/media/HarringtonR.ttf": "/wedding-website/static/media/HarringtonR.b15c94ca.ttf",
+    "static/media/TNGANBI.TTF": "/wedding-website/static/media/TNGANBI.3570386c.TTF",
+    "static/media/bouquets.png": "/wedding-website/static/media/bouquets.965f16ed.png",
     "static/media/flower-border-left.png": "/wedding-website/static/media/flower-border-left.bb0c9669.png",
     "static/media/flower-border-right.png": "/wedding-website/static/media/flower-border-right.6375822f.png",
     "static/media/jm-claddagh.png": "/wedding-website/static/media/jm-claddagh.3fb69da6.png",
-    "static/media/parchment.jpg": "/wedding-website/static/media/parchment.8fb37f09.jpg"
+    "static/media/parchment.jpg": "/wedding-website/static/media/parchment.8fb37f09.jpg",
+    "static/media/ring-lake-dog.jpg": "/wedding-website/static/media/ring-lake-dog.bc1f295f.jpg"
   }
 }

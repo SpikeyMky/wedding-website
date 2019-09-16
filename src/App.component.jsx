@@ -3,7 +3,7 @@ import {HashRouter, Route} from 'react-router-dom';
 import HomePage from './pages/homepage/homepage.component';
 import TestPage from './pages/test/test.component';
 
-import {PageContainer, InnerWrapper} from './App.styles';
+import {PageContainer, InnerWrapper, GlobalStyles} from './App.styles';
 
 import {connect} from 'react-redux';
 
@@ -15,6 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <>
+      <GlobalStyles/>
       <Header/>
 
       <PageContainer>        

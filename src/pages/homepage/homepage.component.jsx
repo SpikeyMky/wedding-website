@@ -1,18 +1,53 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
-import {PageHeading} from './homepage.styles';
+import { HomepageContainer, ContentContainer, ContentContainerTop, ContentContainerBottom, PageHeading, PageHeadingElvin, EventDateTime, EventLocation, EventCountdown, CountdownDays } from './homepage.styles';
 
-// import Directory from "../../components/directory/directory.component";
 
-const HomePage = () => (
-    <div className="homepage">        
-        <PageHeading>Jemma and Mike</PageHeading>
-        <p>We're tying the knot on 11th April 2020.</p>
-        <Link to="/test">Test page</Link>
-    </div>
-)
+class HomePage extends React.Component {
+    constructor(props) {
+        super(props);
+        
+        this.state = {
+            daysUntilWedding:this.getDaysUntilWedding() 
+        }
+    }
 
-export default HomePage;
+    getDaysUntilWedding = () => {
+        const today = new Date();
+        const weddingDay = new Date(2020, 3, 11);
+        const one_day = 1000*60*60*24;
+
+        return(
+            Math.ceil((weddingDay.getTime()-today.getTime())/(one_day))
+        );
+    }
+
+    render() {
+        const {daysUntilWedding} = this.state;
+        return (
+
+            <HomepageContainer>
+
+                <ContentContainer>
+                    <ContentContainerTop>
+                        <PageHeading>Jemma Martin & Michael Pallister</PageHeading>
+                        <PageHeadingElvin>Jemma Martin & Michael Pallister</PageHeadingElvin>
+                    </ContentContainerTop>
+
+                    <ContentContainerBottom>
+                        <EventDateTime>12:00pm Saturday 11th April 2020</EventDateTime>
+                        <EventLocation>Pott Shirgley, Macclesfield</EventLocation>
+                        <EventCountdown><span>Tying the knot in </span> <CountdownDays>{daysUntilWedding}</CountdownDays> <span>days!</span></EventCountdown>
+                    </ContentContainerBottom>
+
+                </ContentContainer>
+
+            </HomepageContainer>
+        );
+    }
+}
+
+    export default HomePage;

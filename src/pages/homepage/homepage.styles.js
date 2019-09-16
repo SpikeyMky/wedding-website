@@ -33,6 +33,9 @@ export const PageHeading = styled.h1`
     margin:0;
     font-family:HarringtonR;
     letter-spacing:4px;
+    @media (max-width: 768px) {
+        font-size:34px;
+    }
 `;
 
 export const PageHeadingElvin = styled.p`
@@ -40,6 +43,9 @@ export const PageHeadingElvin = styled.p`
     font-family:'ElvinBI';
     font-size:34px;
     margin:0;
+    @media (max-width: 768px) {
+        font-size:20px;
+    }
 `;
 
 export const EventDateTime = styled.p`
@@ -49,6 +55,9 @@ export const EventDateTime = styled.p`
     margin:0;
     font-weight:700;
     letter-spacing:2px;
+    @media (max-width: 768px) {
+        font-size:16px;
+    }
 `;
 
 export const EventLocation = styled.p`
@@ -57,6 +66,9 @@ export const EventLocation = styled.p`
     font-size:28px;
     margin:0;
     letter-spacing:2px;
+    @media (max-width: 768px) {
+        font-size:18px;
+    }
 `;
 
 export const EventCountdown = styled.p`
@@ -65,6 +77,9 @@ export const EventCountdown = styled.p`
     letter-spacing:2px;
     color:#2f93d7;
     font-weight:700;
+    @media (max-width: 768px) {
+        font-size:32px;
+    }
 `;
 
 export const CountdownDays = styled.span`

@@ -24,6 +24,11 @@ export const GlobalStyles = createGlobalStyle`
 export const PageContainer = styled.div`
     background: url(${flowerborderleft}) 0 0 no-repeat, url(${flowerborderright}) 100% 0 no-repeat, url(${parchment});
     background-repeat-y:repeat;
+
+    @media (max-width: 768px) {
+        background: url(${parchment});
+    }
+
 `;
 
 export const InnerWrapper = styled.div`
@@ -35,4 +40,7 @@ export const InnerWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media (max-width: 768px) {
+        padding: 0 10px;
+    }
 `;

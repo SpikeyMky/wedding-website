@@ -16,8 +16,8 @@ export const ContentContainer = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:space-between;
-    border: 18px solid #fff;
-    box-shadow: 8px 8px 20px #000;
+    border: 18px solid ${props=>props.theme.secondary1};
+    box-shadow: 8px 8px 20px ${props=>props.theme.secondary2};
 `;
 
 export const ContentContainerTop = styled.div`
@@ -28,7 +28,7 @@ export const ContentContainerBottom = styled.div`
 `;
 
 export const PageHeading = styled.h1`
-    color:#fff;
+    color:${props=>props.theme.secondary1};
     font-size:48px;
     margin:0;
     font-family:HarringtonR;
@@ -39,7 +39,7 @@ export const PageHeading = styled.h1`
 `;
 
 export const PageHeadingElvin = styled.p`
-    color:#2f93d7;
+    color:${props=>props.theme.primary1};
     font-family:'ElvinBI';
     font-size:34px;
     margin:0;
@@ -49,7 +49,7 @@ export const PageHeadingElvin = styled.p`
 `;
 
 export const EventDateTime = styled.p`
-    color:#fff;
+    color:${props=>props.theme.secondary1};
     font-family:HarringtonR;
     font-size:28px;
     margin:0;
@@ -61,7 +61,7 @@ export const EventDateTime = styled.p`
 `;
 
 export const EventLocation = styled.p`
-    color:#fff;
+    color:${props=>props.theme.secondary1};
     font-family:HarringtonR;
     font-size:28px;
     margin:0;
@@ -83,5 +83,5 @@ export const EventCountdown = styled.p`
 `;
 
 export const CountdownDays = styled.span`
-    color:#fff;
+    color:${props=>props.theme.secondary1};
 `;

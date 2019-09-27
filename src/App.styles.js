@@ -16,6 +16,10 @@ export const GlobalStyles = createGlobalStyle`
         font-family:'HarringtonR';
         src:url(${harringtonR}) format('truetype');
     }
+    a{
+        text-decoration:none;
+        color:${props=>props.theme.secondary2};
+    }
 `;
 
 

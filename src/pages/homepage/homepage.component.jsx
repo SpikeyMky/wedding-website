@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import {createSongRequestDocument} from '../../firebase/firebase.utils';
 
@@ -19,7 +19,8 @@ class HomePage extends React.Component {
 
     getDaysUntilWedding = () => {
         const today = new Date();
-        const weddingDay = new Date(2020, 3, 11, 12, 0, 0);
+        const weddingDay = new Date(2020, 3, 11);
+        // const weddingDay = new Date(2020, 3, 11, 12, 0, 0);
         console.log(weddingDay);
         const one_day = 1000*60*60*24;
 

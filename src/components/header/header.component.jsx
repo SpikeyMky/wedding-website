@@ -11,14 +11,14 @@ const Header = () => {
                 <BouquetsLeft src={bouquets} />
             </div>
             <HeaderContent>
-                <NavLink text="Venue" to="/link"/>
-                <NavLink text="Accomodation" to="/link"/>
+                {/* <NavLink text="Venue" to="/link"/> */}
+                {/* <NavLink text="Accomodation" to="/link"/> */}
                 <div>
                     <CladdaghImage src={claddagh} />
                     <ElvinSubText>WoJaM</ElvinSubText>
                 </div>
-                <NavLink text="Wedding gifts" to="/link"/>
-                <NavLink text="Song requests" to="/link"/>
+                {/* <NavLink text="Wedding gifts" to="/link"/> */}
+                {/* <NavLink text="Song requests" to="/link"/> */}
             </HeaderContent>
             <div>
                 <BouquetsRight src={bouquets} />

@@ -62,7 +62,7 @@ class HomePage extends React.Component {
 
                     <ContentContainerBottom>
                         <EventDateTime>12:00pm Saturday 11th April 2020</EventDateTime>
-                        <EventLocation>Pott Shirgley, Macclesfield</EventLocation>
+                        <EventLocation>Pott Shrigley, Macclesfield</EventLocation>
                         <EventCountdown><span>Tying the knot in </span> <CountdownDays>{daysUntilWedding}</CountdownDays> <span>days!</span></EventCountdown>
                     </ContentContainerBottom>
 
